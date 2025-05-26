@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shopping Cart - Adoration Of Books</title>
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+  <header>
+    <h1>Adoration Of Books</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="books.html">Books</a>
+      <a href="aboutus.html">About</a>
+      <a href="contactus.html">Contact</a>
+      <a href="feedback.html">Feedback</a>
+      <a href="shopping.html">Shopping</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="cart-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Book</th>
+            <th>Author</th>
+            <th>Cover</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+          <tr>
+            <td>Readmind</td>
+            <td>George Orwell</td>
+            <td><img src="images/readmind.png" alt="1984" class="book-cover" /></td>
+            <td>P95.50</td>
+            <td><input type="number" min="1" value="2" class="qty-input" /></td>
+            <td><button class="remove-btn">Remove</button></td>
+          </tr>
+          <tr>
+            <td>solarbonesbook</td>
+            <td>Jane Austen</td>
+            <td><img src="images/solarbonesbook.jpeg" alt="solarbonesbook" class="book-cover" /></td>
+            <td>P230.99</td>
+            <td><input type="number" min="1" value="1" class="qty-input" /></td>
+            <td><button class="remove-btn">Remove</button></td>
+          </tr>
+          <tr>
+            <td>Thinking, Fast and Slow</td>
+            <td>Daniel Kahneman</td>
+            <td><img src="images/thinkandgrow.jpeg" alt="thinkandgrow" class="book-cover" /></td>
+            <td>P160.80</td>
+            <td><input type="number" min="1" value="1" class="qty-input" /></td>
+            <td><button class="remove-btn">Remove</button></td>
+          </tr>
+          <tr>
+            <td>Spiderman</td>
+            <td>Cormen, Leiserson, Rivest, and Stein</td>
+            <td><img src="images/spiderbook.jpeg" alt="spiderbook" class="book-cover" /></td>
+            <td>P400.99</td>
+            <td><input type="number" min="1" value="1" class="qty-input" /></td>
+            <td><button class="remove-btn">Remove</button></td>
+          </tr>
+          <tr>
+            <td>Miracalous ladybug</td>
+            <td>Steve Krug</td>
+            <td><img src="images/ladybook.jpeg" alt="ladybook" class="book-cover" /></td>
+            <td>P200.00</td>
+            <td><input type="number" min="1" value="1" class="qty-input" /></td>
+            <td><button class="remove-btn">Remove</button></td>
+          </tr>
+          <tr>
+            <td>The Winter King</td>
+            <td>Martin Fowler</td>
+            <td><img src="images/thewinterking.jpeg" alt="thewinterkings" class="book-cover" /></td>
+            <td>P280.50</td>
+            <td><input type="number" min="1" value="1" class="qty-input" /></td>
+            <td><button class="remove-btn">Remove</button></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="total-price">
+        Total: P<span id="totalAmount">3,321.52</span>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 For the love of books. All rights reserved.</p>
+  </footer>
+
+ 
